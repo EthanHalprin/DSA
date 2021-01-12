@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		AA457AB825A2088C00881383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA457AB725A2088C00881383 /* Assets.xcassets */; };
 		AA457ABB25A2088C00881383 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA457ABA25A2088C00881383 /* Preview Assets.xcassets */; };
-		AA457AC625A2088C00881383 /* DSATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA457AC525A2088C00881383 /* DSATests.swift */; };
+		AA457AC625A2088C00881383 /* DSATestsKadane.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA457AC525A2088C00881383 /* DSATestsKadane.swift */; };
 		AA457AD125A2088C00881383 /* DSAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA457AD025A2088C00881383 /* DSAUITests.swift */; };
 		AA457AFC25A2283200881383 /* DSAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA457AFB25A2283200881383 /* DSAApp.swift */; };
 		AA457B0825A2284F00881383 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA457B0525A2284F00881383 /* ContentView.swift */; };
 		AA457B0925A2284F00881383 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA457B0725A2284F00881383 /* ViewModel.swift */; };
 		AA457B0E25A2286C00881383 /* Kadane.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA457B0D25A2286C00881383 /* Kadane.swift */; };
+		AA83825625ADB01D00C160D8 /* ReverseLL.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA83825525ADB01D00C160D8 /* ReverseLL.swift */; };
+		AA83825B25ADFC3C00C160D8 /* DSATestsLL.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA83825A25ADFC3C00C160D8 /* DSATestsLL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +42,7 @@
 		AA457ABA25A2088C00881383 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AA457ABC25A2088C00881383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA457AC125A2088C00881383 /* DSATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA457AC525A2088C00881383 /* DSATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSATests.swift; sourceTree = "<group>"; };
+		AA457AC525A2088C00881383 /* DSATestsKadane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSATestsKadane.swift; sourceTree = "<group>"; };
 		AA457AC725A2088C00881383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA457ACC25A2088C00881383 /* DSAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA457AD025A2088C00881383 /* DSAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSAUITests.swift; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		AA457B0525A2284F00881383 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AA457B0725A2284F00881383 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		AA457B0D25A2286C00881383 /* Kadane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadane.swift; sourceTree = "<group>"; };
+		AA83825525ADB01D00C160D8 /* ReverseLL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLL.swift; sourceTree = "<group>"; };
+		AA83825A25ADFC3C00C160D8 /* DSATestsLL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSATestsLL.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +125,8 @@
 		AA457AC425A2088C00881383 /* DSATests */ = {
 			isa = PBXGroup;
 			children = (
-				AA457AC525A2088C00881383 /* DSATests.swift */,
+				AA457AC525A2088C00881383 /* DSATestsKadane.swift */,
+				AA83825A25ADFC3C00C160D8 /* DSATestsLL.swift */,
 				AA457AC725A2088C00881383 /* Info.plist */,
 			);
 			path = DSATests;
@@ -164,6 +169,7 @@
 			children = (
 				AA457B0725A2284F00881383 /* ViewModel.swift */,
 				AA457B0D25A2286C00881383 /* Kadane.swift */,
+				AA83825525ADB01D00C160D8 /* ReverseLL.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -299,6 +305,7 @@
 			files = (
 				AA457B0825A2284F00881383 /* ContentView.swift in Sources */,
 				AA457B0925A2284F00881383 /* ViewModel.swift in Sources */,
+				AA83825625ADB01D00C160D8 /* ReverseLL.swift in Sources */,
 				AA457AFC25A2283200881383 /* DSAApp.swift in Sources */,
 				AA457B0E25A2286C00881383 /* Kadane.swift in Sources */,
 			);
@@ -308,7 +315,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA457AC625A2088C00881383 /* DSATests.swift in Sources */,
+				AA83825B25ADFC3C00C160D8 /* DSATestsLL.swift in Sources */,
+				AA457AC625A2088C00881383 /* DSATestsKadane.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,8 +15,8 @@ class ViewModel {
         private init() {}
     }
     
-    class Graph {
-        static var shared = Graph()
+    class LinkedList {
+        static var shared = LinkedList()
         private init() {}
     }
 }
