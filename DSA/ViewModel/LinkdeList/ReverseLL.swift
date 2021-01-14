@@ -7,12 +7,7 @@
 
 import Foundation
 
-class LLNode {
-    var data: Int = 0
-    var next: LLNode?
-}
-
-extension ViewModel.LinkedList {
+extension LinkedList {
  
     //
     // Reverse list - head insertion each time

@@ -36,7 +36,7 @@ class DSATests: XCTestCase {
     func testKadaneMix() throws {
         let input       = [-2, -3, 4, -1, -2, 1, 5 ,-3]
         let expectation = (7, 2, 6)
-        let output = ViewModel.Arr.shared.kadane(input)
+        let output = Arr.shared.kadane(input)
         XCTAssert(output != nil)
         XCTAssert(expectation == output!)
     }
@@ -44,7 +44,7 @@ class DSATests: XCTestCase {
     func testKadanePositive() throws {
         let input       = [5, 4, 3, 7, 5]
         let expectation = (24, 0, 4)
-        let output = ViewModel.Arr.shared.kadane(input)
+        let output = Arr.shared.kadane(input)
         XCTAssert(output != nil)
         XCTAssert(expectation == output!)
     }
@@ -52,21 +52,21 @@ class DSATests: XCTestCase {
     func testKadaneNegative() throws {
         let input       = [-2, -30, -4, -1]
         let expectation = (-1, 3, 3)
-        let output = ViewModel.Arr.shared.kadane(input)
+        let output = Arr.shared.kadane(input)
         XCTAssert(output != nil)
         XCTAssert(expectation == output!)
     }
 
     func testKadaneEmpty() throws {
         let input = [Int]()
-        let output = ViewModel.Arr.shared.kadane(input)
+        let output = Arr.shared.kadane(input)
         XCTAssert(output == nil)
     }
 
     func testKadaneSingleCell() throws {
         let input       = [100]
         let expectation = (100, 0, 0)
-        let output = ViewModel.Arr.shared.kadane(input)
+        let output = Arr.shared.kadane(input)
         XCTAssert(output != nil)
         XCTAssert(expectation == output!)
     }
@@ -74,7 +74,7 @@ class DSATests: XCTestCase {
     func testKadaneSingleEdgeMax() throws {
         let input       = [-1, 2, 30, -5, 10, -80, 100]
         let expectation = (100, 6, 6)
-        let output = ViewModel.Arr.shared.kadane(input)
+        let output = Arr.shared.kadane(input)
         XCTAssert(output != nil)
         XCTAssert(expectation == output!)
     }

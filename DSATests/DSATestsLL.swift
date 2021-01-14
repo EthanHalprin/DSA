@@ -51,12 +51,12 @@ class DSATestsLL: XCTestCase {
     }
     
     func testEmptyLList() throws {
-        XCTAssertNil(ViewModel.LinkedList.shared.reverse(nil))
+        XCTAssertNil(LinkedList.shared.reverse(nil))
     }
     
     func testSingleNodeLList() throws {
         let data = head!.data
-        let reversed = ViewModel.LinkedList.shared.reverse(head)
+        let reversed = LinkedList.shared.reverse(head)
         XCTAssert(data == reversed?.data)
     }
     
@@ -75,11 +75,11 @@ class DSATestsLL: XCTestCase {
         }
         
         allocator.next = nil
-        var reversed = ViewModel.LinkedList.shared.reverse(original!)
+        var reversed = LinkedList.shared.reverse(original!)
         original = nil // since reverse func cannot "release"
-        print("===================================================")
+        print("===============================================")
         print("  REVERSED")
-        print("===================================================")
+        print("===============================================")
         dump(reversed!)
         
         while reversed != nil {
