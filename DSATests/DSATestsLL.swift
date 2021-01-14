@@ -8,7 +8,7 @@
 import XCTest
 @testable import DSA
 
-struct Stack<T> {
+struct Stacker<T> {
     private var data = [T]()
     
     mutating func push(_ item: T) {
@@ -21,7 +21,7 @@ struct Stack<T> {
     }
 }
 
-class DSATestsLL: XCTestCase {
+class DSATestsLinkedList: XCTestCase {
 
     var head: LLNode?
     
@@ -64,7 +64,7 @@ class DSATestsLL: XCTestCase {
         var allocator = LLNode()
         allocator.data = 1
         var original: LLNode? = allocator
-        var stack = Stack<Int>()
+        var stack = Stacker<Int>()
         stack.push(1)
         
         for i in 2..<11 {

@@ -8,7 +8,7 @@
 import XCTest
 @testable import DSA
 
-class DSATests: XCTestCase {
+class DSATestsArrKadane: XCTestCase {
     
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation
