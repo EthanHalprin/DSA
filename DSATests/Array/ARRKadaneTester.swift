@@ -1,5 +1,5 @@
 //
-//  DSATests.swift
+//  ARRKadaneTester.swift
 //  DSATests
 //
 //  Created by Ethan on 03/01/2021.
@@ -8,7 +8,7 @@
 import XCTest
 @testable import DSA
 
-class DSATestsArrKadane: XCTestCase {
+class ARRKadaneTester: XCTestCase {
     
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation

@@ -1,5 +1,5 @@
 //
-//  DSATestsLL.swift
+//  LLReverseTester.swift
 //  DSATests
 //
 //  Created by Ethan on 12/01/2021.
@@ -21,7 +21,7 @@ struct Stacker<T> {
     }
 }
 
-class DSATestsLinkedList: XCTestCase {
+class LLReverseTester: XCTestCase {
 
     var head: LLNode?
     
@@ -53,7 +53,7 @@ class DSATestsLinkedList: XCTestCase {
     func testEmptyLList() throws {
         XCTAssertNil(LinkedList.shared.reverse(nil))
     }
-    
+
     func testSingleNodeLList() throws {
         let data = head!.data
         let reversed = LinkedList.shared.reverse(head)
