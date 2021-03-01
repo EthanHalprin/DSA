@@ -28,7 +28,7 @@ extension Arr {
     func stockSpan(_ prices: [Int]) -> [Int]? {
         
         guard prices.count > 0 else { return nil }
-        guard prices.count > 1 else { return [1]     }
+        guard prices.count != 1 else { return [1] }
         
         var spans = Array.init(repeating: 0, count: prices.count)
         spans[0] = 1
