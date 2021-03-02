@@ -14,10 +14,11 @@
 		AA457AFC25A2283200881383 /* DSAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA457AFB25A2283200881383 /* DSAApp.swift */; };
 		AA457B0825A2284F00881383 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA457B0525A2284F00881383 /* ContentView.swift */; };
 		AA83825B25ADFC3C00C160D8 /* LLReverseTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA83825A25ADFC3C00C160D8 /* LLReverseTester.swift */; };
+		AA8D9C8C25EE4E2C0006B975 /* CircularTour.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8D9C8B25EE4E2C0006B975 /* CircularTour.swift */; };
+		AA8D9C9125EE4E4E0006B975 /* Kadane.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8D9C9025EE4E4E0006B975 /* Kadane.swift */; };
 		AAB8709325B09F0100A4666E /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB8708C25B09F0100A4666E /* LinkedList.swift */; };
 		AAB8709425B09F0100A4666E /* ReverseLL.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB8708D25B09F0100A4666E /* ReverseLL.swift */; };
 		AAB8709625B09F0100A4666E /* Arr.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB8709125B09F0100A4666E /* Arr.swift */; };
-		AAB8709725B09F0100A4666E /* Kadane.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB8709225B09F0100A4666E /* Kadane.swift */; };
 		AAB870B525B0CD4500A4666E /* ARRStockSpanTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB870B425B0CD4500A4666E /* ARRStockSpanTester.swift */; };
 		AAB870C025B0CDA300A4666E /* StockSpan.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB870BF25B0CDA300A4666E /* StockSpan.swift */; };
 /* End PBXBuildFile section */
@@ -53,10 +54,11 @@
 		AA457AFB25A2283200881383 /* DSAApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSAApp.swift; sourceTree = "<group>"; };
 		AA457B0525A2284F00881383 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AA83825A25ADFC3C00C160D8 /* LLReverseTester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLReverseTester.swift; sourceTree = "<group>"; };
+		AA8D9C8B25EE4E2C0006B975 /* CircularTour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularTour.swift; sourceTree = "<group>"; };
+		AA8D9C9025EE4E4E0006B975 /* Kadane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kadane.swift; sourceTree = "<group>"; };
 		AAB8708C25B09F0100A4666E /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		AAB8708D25B09F0100A4666E /* ReverseLL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseLL.swift; sourceTree = "<group>"; };
 		AAB8709125B09F0100A4666E /* Arr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arr.swift; sourceTree = "<group>"; };
-		AAB8709225B09F0100A4666E /* Kadane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kadane.swift; sourceTree = "<group>"; };
 		AAB870B425B0CD4500A4666E /* ARRStockSpanTester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARRStockSpanTester.swift; sourceTree = "<group>"; };
 		AAB870BF25B0CDA300A4666E /* StockSpan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockSpan.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -201,7 +203,8 @@
 			isa = PBXGroup;
 			children = (
 				AAB8709125B09F0100A4666E /* Arr.swift */,
-				AAB8709225B09F0100A4666E /* Kadane.swift */,
+				AA8D9C8B25EE4E2C0006B975 /* CircularTour.swift */,
+				AA8D9C9025EE4E4E0006B975 /* Kadane.swift */,
 				AAB870BF25B0CDA300A4666E /* StockSpan.swift */,
 			);
 			path = Array;
@@ -339,10 +342,11 @@
 				AAB870C025B0CDA300A4666E /* StockSpan.swift in Sources */,
 				AA457B0825A2284F00881383 /* ContentView.swift in Sources */,
 				AAB8709325B09F0100A4666E /* LinkedList.swift in Sources */,
+				AA8D9C9125EE4E4E0006B975 /* Kadane.swift in Sources */,
 				AAB8709425B09F0100A4666E /* ReverseLL.swift in Sources */,
+				AA8D9C8C25EE4E2C0006B975 /* CircularTour.swift in Sources */,
 				AAB8709625B09F0100A4666E /* Arr.swift in Sources */,
 				AA457AFC25A2283200881383 /* DSAApp.swift in Sources */,
-				AAB8709725B09F0100A4666E /* Kadane.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
