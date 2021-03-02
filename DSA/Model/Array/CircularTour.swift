@@ -26,7 +26,6 @@ extension Arr {
        preliminary.
        Need to traverse array 2N times (consider last cell route)
        which is practically O(N)
-     
     */
     func circularTourist(_ arr: [(Int, Int)]) -> Int {
         
