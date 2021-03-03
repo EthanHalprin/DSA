@@ -7,13 +7,21 @@
 
 import Foundation
 
+enum CircularTourError: Error {
+    case arrEmpty
+    case arrSingleCity
+}
+
 extension Arr {
  
+    
     /*
        1st = petrol
        2nd = distance
      
        Input = [ (4,6) , (6,5) , (7,3) , (4,5) ]
+     
+       Output = 1 (index of (6,5)
      
        O(N) Solution
        —————————————
@@ -27,7 +35,14 @@ extension Arr {
        Need to traverse array 2N times (consider last cell route)
        which is practically O(N)
     */
-    func circularTourist(_ arr: [(Int, Int)]) -> Int {
+    func circularTourist(_ arr: [(Int, Int)]) -> Result<Int, Error> {
+        
+        guard arr.count > 0 else {
+            return Result.failure(CircularTourError.arrEmpty)
+        }
+        guard arr.count != 1 else {
+            return Result.failure(CircularTourError.arrSingleCity)
+        }
         
         var balance = 0
         var i       = 0
@@ -49,9 +64,10 @@ extension Arr {
                 tour += 1
             } else {
                 // keep
-                routeSlices[start] = i
+                if start != -1 {
+                    routeSlices[start] = i
+                }
                 // reset
-                i = start
                 start = -1
                 balance = 0
                 tour = 0
@@ -59,8 +75,8 @@ extension Arr {
             i = (i + 1) % arr.count
             stepper += 1
         }
-        let result: Int = tour == arr.count ? start : -1
+        let res: Int = tour == arr.count ? start : -1
         
-        return result
+        return Result.success(res)
     }
 }

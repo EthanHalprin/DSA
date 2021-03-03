@@ -21,6 +21,7 @@
 		AAB8709625B09F0100A4666E /* Arr.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB8709125B09F0100A4666E /* Arr.swift */; };
 		AAB870B525B0CD4500A4666E /* ARRStockSpanTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB870B425B0CD4500A4666E /* ARRStockSpanTester.swift */; };
 		AAB870C025B0CDA300A4666E /* StockSpan.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB870BF25B0CDA300A4666E /* StockSpan.swift */; };
+		AAF4BBAA25EFF66D00B95F07 /* ARRCircularTourTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF4BBA925EFF66D00B95F07 /* ARRCircularTourTester.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		AAB8709125B09F0100A4666E /* Arr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arr.swift; sourceTree = "<group>"; };
 		AAB870B425B0CD4500A4666E /* ARRStockSpanTester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARRStockSpanTester.swift; sourceTree = "<group>"; };
 		AAB870BF25B0CDA300A4666E /* StockSpan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockSpan.swift; sourceTree = "<group>"; };
+		AAF4BBA925EFF66D00B95F07 /* ARRCircularTourTester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARRCircularTourTester.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			children = (
 				AA457AC525A2088C00881383 /* ARRKadaneTester.swift */,
 				AAB870B425B0CD4500A4666E /* ARRStockSpanTester.swift */,
+				AAF4BBA925EFF66D00B95F07 /* ARRCircularTourTester.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -355,6 +358,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA83825B25ADFC3C00C160D8 /* LLReverseTester.swift in Sources */,
+				AAF4BBAA25EFF66D00B95F07 /* ARRCircularTourTester.swift in Sources */,
 				AAB870B525B0CD4500A4666E /* ARRStockSpanTester.swift in Sources */,
 				AA457AC625A2088C00881383 /* ARRKadaneTester.swift in Sources */,
 			);
