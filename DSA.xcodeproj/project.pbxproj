@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA1B958F25F1765000DB6A77 /* RottenOranges.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B958E25F1765000DB6A77 /* RottenOranges.swift */; };
 		AA457AB825A2088C00881383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA457AB725A2088C00881383 /* Assets.xcassets */; };
 		AA457ABB25A2088C00881383 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA457ABA25A2088C00881383 /* Preview Assets.xcassets */; };
 		AA457AC625A2088C00881383 /* ARRKadaneTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA457AC525A2088C00881383 /* ARRKadaneTester.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA1B958E25F1765000DB6A77 /* RottenOranges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RottenOranges.swift; sourceTree = "<group>"; };
 		AA457AB025A2088B00881383 /* DSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA457AB725A2088C00881383 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA457ABA25A2088C00881383 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 		AA457B0625A2284F00881383 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AA1B958E25F1765000DB6A77 /* RottenOranges.swift */,
 				AAB8709025B09F0100A4666E /* Array */,
 				AAB8708B25B09F0100A4666E /* LinkdeList */,
 			);
@@ -349,6 +352,7 @@
 				AAB8709425B09F0100A4666E /* ReverseLL.swift in Sources */,
 				AA8D9C8C25EE4E2C0006B975 /* CircularTour.swift in Sources */,
 				AAB8709625B09F0100A4666E /* Arr.swift in Sources */,
+				AA1B958F25F1765000DB6A77 /* RottenOranges.swift in Sources */,
 				AA457AFC25A2283200881383 /* DSAApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
