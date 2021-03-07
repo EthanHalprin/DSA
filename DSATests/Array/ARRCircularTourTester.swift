@@ -47,8 +47,6 @@ class ARRCircularTourTester: XCTestCase {
                 XCTFail()
             }
         }
-        
-       // XCTAssert(output == 1)
     }
     
     func testEmpty() throws {

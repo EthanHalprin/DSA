@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA1B958F25F1765000DB6A77 /* RottenOranges.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B958E25F1765000DB6A77 /* RottenOranges.swift */; };
 		AA457AB825A2088C00881383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA457AB725A2088C00881383 /* Assets.xcassets */; };
 		AA457ABB25A2088C00881383 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA457ABA25A2088C00881383 /* Preview Assets.xcassets */; };
 		AA457AC625A2088C00881383 /* ARRKadaneTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA457AC525A2088C00881383 /* ARRKadaneTester.swift */; };
@@ -22,6 +21,10 @@
 		AAB8709625B09F0100A4666E /* Arr.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB8709125B09F0100A4666E /* Arr.swift */; };
 		AAB870B525B0CD4500A4666E /* ARRStockSpanTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB870B425B0CD4500A4666E /* ARRStockSpanTester.swift */; };
 		AAB870C025B0CDA300A4666E /* StockSpan.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB870BF25B0CDA300A4666E /* StockSpan.swift */; };
+		AABC3BFB25F3F360004EB0B9 /* ARRRottenOrangesTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC3BFA25F3F360004EB0B9 /* ARRRottenOrangesTester.swift */; };
+		AABC3C0725F3F43F004EB0B9 /* RottenOranges.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC3C0625F3F43F004EB0B9 /* RottenOranges.swift */; };
+		AABC3C0C25F3FBAD004EB0B9 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC3C0B25F3FBAD004EB0B9 /* Queue.swift */; };
+		AABC3C1425F40150004EB0B9 /* RottenOrangesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC3C1325F40150004EB0B9 /* RottenOrangesModel.swift */; };
 		AAF4BBAA25EFF66D00B95F07 /* ARRCircularTourTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF4BBA925EFF66D00B95F07 /* ARRCircularTourTester.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,7 +46,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AA1B958E25F1765000DB6A77 /* RottenOranges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RottenOranges.swift; sourceTree = "<group>"; };
 		AA457AB025A2088B00881383 /* DSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA457AB725A2088C00881383 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA457ABA25A2088C00881383 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -64,6 +66,10 @@
 		AAB8709125B09F0100A4666E /* Arr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arr.swift; sourceTree = "<group>"; };
 		AAB870B425B0CD4500A4666E /* ARRStockSpanTester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARRStockSpanTester.swift; sourceTree = "<group>"; };
 		AAB870BF25B0CDA300A4666E /* StockSpan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockSpan.swift; sourceTree = "<group>"; };
+		AABC3BFA25F3F360004EB0B9 /* ARRRottenOrangesTester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARRRottenOrangesTester.swift; sourceTree = "<group>"; };
+		AABC3C0625F3F43F004EB0B9 /* RottenOranges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RottenOranges.swift; sourceTree = "<group>"; };
+		AABC3C0B25F3FBAD004EB0B9 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		AABC3C1325F40150004EB0B9 /* RottenOrangesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RottenOrangesModel.swift; sourceTree = "<group>"; };
 		AAF4BBA925EFF66D00B95F07 /* ARRCircularTourTester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARRCircularTourTester.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,6 +104,7 @@
 				AA457AC525A2088C00881383 /* ARRKadaneTester.swift */,
 				AAB870B425B0CD4500A4666E /* ARRStockSpanTester.swift */,
 				AAF4BBA925EFF66D00B95F07 /* ARRCircularTourTester.swift */,
+				AABC3BFA25F3F360004EB0B9 /* ARRRottenOrangesTester.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -189,7 +196,7 @@
 		AA457B0625A2284F00881383 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				AA1B958E25F1765000DB6A77 /* RottenOranges.swift */,
+				AABC3C0225F3F422004EB0B9 /* Queue */,
 				AAB8709025B09F0100A4666E /* Array */,
 				AAB8708B25B09F0100A4666E /* LinkdeList */,
 			);
@@ -214,6 +221,16 @@
 				AAB870BF25B0CDA300A4666E /* StockSpan.swift */,
 			);
 			path = Array;
+			sourceTree = "<group>";
+		};
+		AABC3C0225F3F422004EB0B9 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				AABC3C0B25F3FBAD004EB0B9 /* Queue.swift */,
+				AABC3C0625F3F43F004EB0B9 /* RottenOranges.swift */,
+				AABC3C1325F40150004EB0B9 /* RottenOrangesModel.swift */,
+			);
+			path = Queue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,9 +367,11 @@
 				AAB8709325B09F0100A4666E /* LinkedList.swift in Sources */,
 				AA8D9C9125EE4E4E0006B975 /* Kadane.swift in Sources */,
 				AAB8709425B09F0100A4666E /* ReverseLL.swift in Sources */,
+				AABC3C0C25F3FBAD004EB0B9 /* Queue.swift in Sources */,
 				AA8D9C8C25EE4E2C0006B975 /* CircularTour.swift in Sources */,
 				AAB8709625B09F0100A4666E /* Arr.swift in Sources */,
-				AA1B958F25F1765000DB6A77 /* RottenOranges.swift in Sources */,
+				AABC3C0725F3F43F004EB0B9 /* RottenOranges.swift in Sources */,
+				AABC3C1425F40150004EB0B9 /* RottenOrangesModel.swift in Sources */,
 				AA457AFC25A2283200881383 /* DSAApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,6 +380,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AABC3BFB25F3F360004EB0B9 /* ARRRottenOrangesTester.swift in Sources */,
 				AA83825B25ADFC3C00C160D8 /* LLReverseTester.swift in Sources */,
 				AAF4BBAA25EFF66D00B95F07 /* ARRCircularTourTester.swift in Sources */,
 				AAB870B525B0CD4500A4666E /* ARRStockSpanTester.swift in Sources */,

@@ -40,6 +40,7 @@ extension Arr {
         guard arr.count > 0 else {
             return Result.failure(CircularTourError.arrEmpty)
         }
+
         guard arr.count != 1 else {
             return Result.failure(CircularTourError.arrSingleCity)
         }
