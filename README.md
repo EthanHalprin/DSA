@@ -12,7 +12,7 @@ Supply efficient solutions + Unit Tests in Swift to known data structures proble
 
 
 ### Linked List
-• Reverse
+• Reverse (turn order of list without external memory)
 
 
 ### Queue
