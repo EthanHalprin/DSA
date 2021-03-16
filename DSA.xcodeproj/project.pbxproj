@@ -13,6 +13,7 @@
 		AA457AD125A2088C00881383 /* DSAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA457AD025A2088C00881383 /* DSAUITests.swift */; };
 		AA457AFC25A2283200881383 /* DSAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA457AFB25A2283200881383 /* DSAApp.swift */; };
 		AA457B0825A2284F00881383 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA457B0525A2284F00881383 /* ContentView.swift */; };
+		AA521EE025F8BE140089A8D0 /* SentenceReverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA521EDF25F8BE140089A8D0 /* SentenceReverse.swift */; };
 		AA83825B25ADFC3C00C160D8 /* LLReverseTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA83825A25ADFC3C00C160D8 /* LLReverseTester.swift */; };
 		AA8D9C8C25EE4E2C0006B975 /* CircularTour.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8D9C8B25EE4E2C0006B975 /* CircularTour.swift */; };
 		AA8D9C9125EE4E4E0006B975 /* Kadane.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8D9C9025EE4E4E0006B975 /* Kadane.swift */; };
@@ -60,6 +61,7 @@
 		AA457AD225A2088C00881383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA457AFB25A2283200881383 /* DSAApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSAApp.swift; sourceTree = "<group>"; };
 		AA457B0525A2284F00881383 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA521EDF25F8BE140089A8D0 /* SentenceReverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentenceReverse.swift; sourceTree = "<group>"; };
 		AA83825A25ADFC3C00C160D8 /* LLReverseTester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLReverseTester.swift; sourceTree = "<group>"; };
 		AA8D9C8B25EE4E2C0006B975 /* CircularTour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularTour.swift; sourceTree = "<group>"; };
 		AA8D9C9025EE4E4E0006B975 /* Kadane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kadane.swift; sourceTree = "<group>"; };
@@ -233,6 +235,7 @@
 			children = (
 				AAB930B025F624AE001682E2 /* Str.swift */,
 				AAB930BB25F624DC001682E2 /* RabinKarp.swift */,
+				AA521EDF25F8BE140089A8D0 /* SentenceReverse.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -377,6 +380,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAB870C025B0CDA300A4666E /* StockSpan.swift in Sources */,
+				AA521EE025F8BE140089A8D0 /* SentenceReverse.swift in Sources */,
 				AA457B0825A2284F00881383 /* ContentView.swift in Sources */,
 				AAB8709325B09F0100A4666E /* LinkedList.swift in Sources */,
 				AA8D9C9125EE4E4E0006B975 /* Kadane.swift in Sources */,
