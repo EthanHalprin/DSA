@@ -8,7 +8,6 @@
 import Foundation
 
 extension Arr {
- 
     //
     // Find maximum sub array in an array that can contain negative values
     //

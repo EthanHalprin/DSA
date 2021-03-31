@@ -14,7 +14,6 @@ enum CircularTourError: Error {
 
 extension Arr {
  
-    
     /*
        1st = petrol
        2nd = distance
