@@ -35,6 +35,7 @@ struct StringSection: View {
             Text("RabinKarp")
             Text("Sentence Reverse")
             Text("String Permutations (DP)")
+            Text("Longest Common Prefix (Google)")
         }
     }
 }

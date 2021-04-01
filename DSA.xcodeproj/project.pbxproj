@@ -29,7 +29,9 @@
 		AABC3C0725F3F43F004EB0B9 /* RottenOranges.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC3C0625F3F43F004EB0B9 /* RottenOranges.swift */; };
 		AABC3C0C25F3FBAD004EB0B9 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC3C0B25F3FBAD004EB0B9 /* Queue.swift */; };
 		AABC3C1425F40150004EB0B9 /* RottenOrangesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC3C1325F40150004EB0B9 /* RottenOrangesModel.swift */; };
+		AACF47B226160FB300464A43 /* STRLongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACF47B126160FB300464A43 /* STRLongestCommonPrefix.swift */; };
 		AAEC2D5D26022ACB00B84FCE /* StringPermutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC2D5C26022ACB00B84FCE /* StringPermutations.swift */; };
+		AAEC59E22615EA3300C3BBB5 /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC59E12615EA3300C3BBB5 /* LongestCommonPrefix.swift */; };
 		AAF4BBAA25EFF66D00B95F07 /* ARRCircularTourTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF4BBA925EFF66D00B95F07 /* ARRCircularTourTester.swift */; };
 /* End PBXBuildFile section */
 
@@ -79,7 +81,9 @@
 		AABC3C0625F3F43F004EB0B9 /* RottenOranges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RottenOranges.swift; sourceTree = "<group>"; };
 		AABC3C0B25F3FBAD004EB0B9 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		AABC3C1325F40150004EB0B9 /* RottenOrangesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RottenOrangesModel.swift; sourceTree = "<group>"; };
+		AACF47B126160FB300464A43 /* STRLongestCommonPrefix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = STRLongestCommonPrefix.swift; path = DSATests/Array/STRLongestCommonPrefix.swift; sourceTree = SOURCE_ROOT; };
 		AAEC2D5C26022ACB00B84FCE /* StringPermutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringPermutations\U0010.swift"; sourceTree = "<group>"; };
+		AAEC59E12615EA3300C3BBB5 /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
 		AAF4BBA925EFF66D00B95F07 /* ARRCircularTourTester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARRCircularTourTester.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -173,6 +177,7 @@
 			children = (
 				AA350A0325EB9A72007CF653 /* Array */,
 				AA350A0D25EB9B23007CF653 /* LinkedList */,
+				AACF47B026160F9B00464A43 /* String */,
 				AA457AC725A2088C00881383 /* Info.plist */,
 			);
 			path = DSATests;
@@ -242,6 +247,7 @@
 				AAB930BB25F624DC001682E2 /* RabinKarp.swift */,
 				AA521EDF25F8BE140089A8D0 /* SentenceReverse.swift */,
 				AAEC2D5C26022ACB00B84FCE /* StringPermutations.swift */,
+				AAEC59E12615EA3300C3BBB5 /* LongestCommonPrefix.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -254,6 +260,14 @@
 				AABC3C1325F40150004EB0B9 /* RottenOrangesModel.swift */,
 			);
 			path = Queue;
+			sourceTree = "<group>";
+		};
+		AACF47B026160F9B00464A43 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				AACF47B126160FB300464A43 /* STRLongestCommonPrefix.swift */,
+			);
+			path = String;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,7 +332,7 @@
 		AA457AA825A2088B00881383 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1230;
+				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
 					AA457AAF25A2088B00881383 = {
@@ -393,6 +407,7 @@
 				AAB8709425B09F0100A4666E /* ReverseLL.swift in Sources */,
 				AAEC2D5D26022ACB00B84FCE /* StringPermutations.swift in Sources */,
 				AA4EB104261465CC00F0378A /* CountAndSay.swift in Sources */,
+				AAEC59E22615EA3300C3BBB5 /* LongestCommonPrefix.swift in Sources */,
 				AABC3C0C25F3FBAD004EB0B9 /* Queue.swift in Sources */,
 				AAB930B125F624AE001682E2 /* Str.swift in Sources */,
 				AA8D9C8C25EE4E2C0006B975 /* CircularTour.swift in Sources */,
@@ -411,6 +426,7 @@
 				AABC3BFB25F3F360004EB0B9 /* ARRRottenOrangesTester.swift in Sources */,
 				AA83825B25ADFC3C00C160D8 /* LLReverseTester.swift in Sources */,
 				AAF4BBAA25EFF66D00B95F07 /* ARRCircularTourTester.swift in Sources */,
+				AACF47B226160FB300464A43 /* STRLongestCommonPrefix.swift in Sources */,
 				AAB870B525B0CD4500A4666E /* ARRStockSpanTester.swift in Sources */,
 				AA457AC625A2088C00881383 /* ARRKadaneTester.swift in Sources */,
 			);
