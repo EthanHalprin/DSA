@@ -16,7 +16,7 @@ struct ContentView: View {
                 QueueSection()
                 ArraySection()
                 LinkedListSection()
-                LinkedListSection()
+                TreeSection()
             }
             .listStyle(GroupedListStyle())
             .navigationBarTitle("DSA")
