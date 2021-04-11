@@ -16,6 +16,7 @@ struct ContentView: View {
                 QueueSection()
                 ArraySection()
                 LinkedListSection()
+                LinkedListSection()
             }
             .listStyle(GroupedListStyle())
             .navigationBarTitle("DSA")
@@ -61,9 +62,17 @@ struct ArraySection: View {
 
 struct LinkedListSection: View {
     var body: some View {
-        Section(header: Text("Linked List"),
-                footer: Text("Open Xcode for code and tests").frame(maxWidth: .infinity, alignment: .center)) {
+        Section(header: Text("Linked List")) {
             Text("Reverse")
+        }
+    }
+}
+
+struct TreeSection: View {
+    var body: some View {
+        Section(header: Text("Tree"),
+                footer: Text("Open Xcode for code and tests").frame(maxWidth: .infinity, alignment: .center)) {
+            Text("Leaf Serial Number")
         }
     }
 }

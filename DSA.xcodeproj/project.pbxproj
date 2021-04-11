@@ -215,11 +215,11 @@
 		AA457B0625A2284F00881383 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				AA99C1AD2618DB7000066E13 /* Tree */,
 				AAB930AF25F62463001682E2 /* String */,
 				AABC3C0225F3F422004EB0B9 /* Queue */,
 				AAB8709025B09F0100A4666E /* Array */,
 				AAB8708B25B09F0100A4666E /* LinkdeList */,
+				AA99C1AD2618DB7000066E13 /* Tree */,
 			);
 			path = Model;
 			sourceTree = "<group>";
