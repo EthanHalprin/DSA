@@ -31,9 +31,11 @@
 		AABC3C0725F3F43F004EB0B9 /* RottenOranges.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC3C0625F3F43F004EB0B9 /* RottenOranges.swift */; };
 		AABC3C0C25F3FBAD004EB0B9 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC3C0B25F3FBAD004EB0B9 /* Queue.swift */; };
 		AABC3C1425F40150004EB0B9 /* RottenOrangesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC3C1325F40150004EB0B9 /* RottenOrangesModel.swift */; };
-		AACF47B226160FB300464A43 /* STRLongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACF47B126160FB300464A43 /* STRLongestCommonPrefix.swift */; };
 		AAEC2D5D26022ACB00B84FCE /* StringPermutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC2D5C26022ACB00B84FCE /* StringPermutations.swift */; };
 		AAEC59E22615EA3300C3BBB5 /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC59E12615EA3300C3BBB5 /* LongestCommonPrefix.swift */; };
+		AAF1A8A3263B1ACF00163821 /* KthElementBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF1A8A2263B1ACF00163821 /* KthElementBST.swift */; };
+		AAF1A8AE263B221D00163821 /* STRLongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF1A8AD263B221D00163821 /* STRLongestCommonPrefix.swift */; };
+		AAF1A8C2263B232700163821 /* TREKElementBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF1A8C1263B232700163821 /* TREKElementBST.swift */; };
 		AAF4BBAA25EFF66D00B95F07 /* ARRCircularTourTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF4BBA925EFF66D00B95F07 /* ARRCircularTourTester.swift */; };
 /* End PBXBuildFile section */
 
@@ -85,9 +87,11 @@
 		AABC3C0625F3F43F004EB0B9 /* RottenOranges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RottenOranges.swift; sourceTree = "<group>"; };
 		AABC3C0B25F3FBAD004EB0B9 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		AABC3C1325F40150004EB0B9 /* RottenOrangesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RottenOrangesModel.swift; sourceTree = "<group>"; };
-		AACF47B126160FB300464A43 /* STRLongestCommonPrefix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = STRLongestCommonPrefix.swift; path = DSATests/Array/STRLongestCommonPrefix.swift; sourceTree = SOURCE_ROOT; };
 		AAEC2D5C26022ACB00B84FCE /* StringPermutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringPermutations\U0010.swift"; sourceTree = "<group>"; };
 		AAEC59E12615EA3300C3BBB5 /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
+		AAF1A8A2263B1ACF00163821 /* KthElementBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthElementBST.swift; sourceTree = "<group>"; };
+		AAF1A8AD263B221D00163821 /* STRLongestCommonPrefix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STRLongestCommonPrefix.swift; sourceTree = "<group>"; };
+		AAF1A8C1263B232700163821 /* TREKElementBST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TREKElementBST.swift; sourceTree = "<group>"; };
 		AAF4BBA925EFF66D00B95F07 /* ARRCircularTourTester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARRCircularTourTester.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -179,6 +183,7 @@
 		AA457AC425A2088C00881383 /* DSATests */ = {
 			isa = PBXGroup;
 			children = (
+				AAF1A8C0263B231300163821 /* Tree */,
 				AA350A0325EB9A72007CF653 /* Array */,
 				AA350A0D25EB9B23007CF653 /* LinkedList */,
 				AACF47B026160F9B00464A43 /* String */,
@@ -229,6 +234,7 @@
 			children = (
 				AA99C1B62618DE2100066E13 /* TreeUtils.swift */,
 				AA99C1AE2618DCD700066E13 /* LeafNumber.swift */,
+				AAF1A8A2263B1ACF00163821 /* KthElementBST.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -279,9 +285,17 @@
 		AACF47B026160F9B00464A43 /* String */ = {
 			isa = PBXGroup;
 			children = (
-				AACF47B126160FB300464A43 /* STRLongestCommonPrefix.swift */,
+				AAF1A8AD263B221D00163821 /* STRLongestCommonPrefix.swift */,
 			);
 			path = String;
+			sourceTree = "<group>";
+		};
+		AAF1A8C0263B231300163821 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				AAF1A8C1263B232700163821 /* TREKElementBST.swift */,
+			);
+			path = Tree;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -419,6 +433,7 @@
 				AA457B0825A2284F00881383 /* ContentView.swift in Sources */,
 				AAB8709325B09F0100A4666E /* LinkedList.swift in Sources */,
 				AA8D9C9125EE4E4E0006B975 /* Kadane.swift in Sources */,
+				AAF1A8A3263B1ACF00163821 /* KthElementBST.swift in Sources */,
 				AAB8709425B09F0100A4666E /* ReverseLL.swift in Sources */,
 				AAEC2D5D26022ACB00B84FCE /* StringPermutations.swift in Sources */,
 				AA4EB104261465CC00F0378A /* CountAndSay.swift in Sources */,
@@ -442,7 +457,8 @@
 				AABC3BFB25F3F360004EB0B9 /* ARRRottenOrangesTester.swift in Sources */,
 				AA83825B25ADFC3C00C160D8 /* LLReverseTester.swift in Sources */,
 				AAF4BBAA25EFF66D00B95F07 /* ARRCircularTourTester.swift in Sources */,
-				AACF47B226160FB300464A43 /* STRLongestCommonPrefix.swift in Sources */,
+				AAF1A8AE263B221D00163821 /* STRLongestCommonPrefix.swift in Sources */,
+				AAF1A8C2263B232700163821 /* TREKElementBST.swift in Sources */,
 				AAB870B525B0CD4500A4666E /* ARRStockSpanTester.swift in Sources */,
 				AA457AC625A2088C00881383 /* ARRKadaneTester.swift in Sources */,
 			);
