@@ -33,7 +33,6 @@ struct ContentView_Previews: PreviewProvider {
 struct StringSection: View {
     var body: some View {
         Section(header: Text("STRING")) {
-            Text("RabinKarp")
             Text("Sentence Reverse")
             Text("String Permutations (DP)")
             Text("Longest Common Prefix (Google)")
@@ -56,6 +55,7 @@ struct ArraySection: View {
             Text("Kadane")
             Text("Stock Span")
             Text("Count And Say")
+            Text("Next Permutation")
         }
     }
 }
