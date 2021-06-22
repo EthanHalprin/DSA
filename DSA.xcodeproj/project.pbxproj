@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA1A139026821112000F98B0 /* MirrorTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1A138F26821112000F98B0 /* MirrorTree.swift */; };
+		AA1A139226821AAB000F98B0 /* TREMirror.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1A139126821AAB000F98B0 /* TREMirror.swift */; };
 		AA457AB825A2088C00881383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA457AB725A2088C00881383 /* Assets.xcassets */; };
 		AA457ABB25A2088C00881383 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA457ABA25A2088C00881383 /* Preview Assets.xcassets */; };
 		AA457AC625A2088C00881383 /* ARRKadaneTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA457AC525A2088C00881383 /* ARRKadaneTester.swift */; };
@@ -57,6 +59,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA1A138F26821112000F98B0 /* MirrorTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MirrorTree.swift; sourceTree = "<group>"; };
+		AA1A139126821AAB000F98B0 /* TREMirror.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TREMirror.swift; sourceTree = "<group>"; };
 		AA457AB025A2088B00881383 /* DSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA457AB725A2088C00881383 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA457ABA25A2088C00881383 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -235,6 +239,7 @@
 				AA99C1B62618DE2100066E13 /* TreeUtils.swift */,
 				AA99C1AE2618DCD700066E13 /* LeafNumber.swift */,
 				AAF1A8A2263B1ACF00163821 /* KthElementBST.swift */,
+				AA1A138F26821112000F98B0 /* MirrorTree.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -294,6 +299,7 @@
 			isa = PBXGroup;
 			children = (
 				AAF1A8C1263B232700163821 /* TREKElementBST.swift */,
+				AA1A139126821AAB000F98B0 /* TREMirror.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -431,6 +437,7 @@
 				AA521EE025F8BE140089A8D0 /* SentenceReverse.swift in Sources */,
 				AA99C1AF2618DCD700066E13 /* LeafNumber.swift in Sources */,
 				AA457B0825A2284F00881383 /* ContentView.swift in Sources */,
+				AA1A139026821112000F98B0 /* MirrorTree.swift in Sources */,
 				AAB8709325B09F0100A4666E /* LinkedList.swift in Sources */,
 				AA8D9C9125EE4E4E0006B975 /* Kadane.swift in Sources */,
 				AAF1A8A3263B1ACF00163821 /* KthElementBST.swift in Sources */,
@@ -454,6 +461,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA1A139226821AAB000F98B0 /* TREMirror.swift in Sources */,
 				AABC3BFB25F3F360004EB0B9 /* ARRRottenOrangesTester.swift in Sources */,
 				AA83825B25ADFC3C00C160D8 /* LLReverseTester.swift in Sources */,
 				AAF4BBAA25EFF66D00B95F07 /* ARRCircularTourTester.swift in Sources */,

@@ -20,6 +20,8 @@ struct ContentView: View {
             }
             .listStyle(GroupedListStyle())
             .navigationBarTitle("DSA")
+        }.onAppear() {
+            
         }
     }
 }
