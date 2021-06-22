@@ -25,20 +25,18 @@ class TREMirror: XCTestCase {
              2     3
            4  5  6  7
          */
-        printTree(tree!)
+        let _ = printTree(tree!)
         TreeUtils.shared.mirrorTree(&tree!)
         
         /*
             OUTPUT
-         
                 1
              3     2
            7  6  5  4
          */
-        printTree(tree!)
-
+        let result = printTree(tree!)
+        XCTAssert(result == "1327654")
     }
-
 }
 
 extension TNode: NSCopying {
@@ -53,25 +51,21 @@ extension TNode: NSCopying {
 
 extension TREMirror {
     
-    fileprivate func printTree(_ root: TNode) {
+    fileprivate func printTree(_ root: TNode) -> String {
         
         let queue = Queue<TNode>()
-        
         queue.enqueue(root)
-        
         var output = String()
         
         while !queue.isEmpty() {
             let node = queue.dequeue()
-            output.append(String(describing: "\(node.data), "))
-            if let left = node.left {
-                queue.enqueue(left)
-            }
-            if let right = node.right {
-                queue.enqueue(right)
-            }
+            output.append(String(describing: "\(node.data)"))
+            if let left = node.left   { queue.enqueue(left) }
+            if let right = node.right { queue.enqueue(right)}
         }
+        
         print("\(output)")
+        return output
     }
     
     fileprivate func setupTree() -> TNode {

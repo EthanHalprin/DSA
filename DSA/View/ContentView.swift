@@ -76,6 +76,7 @@ struct TreeSection: View {
                 footer: Text("Open Xcode for code and tests").frame(maxWidth: .infinity, alignment: .center)) {
             Text("Leaf Serial Number")
             Text("kthSmallest element in BST")
+            Text("Mirror Tree")
         }
     }
 }
