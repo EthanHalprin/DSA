@@ -63,7 +63,7 @@ struct ArraySection: View {
 }
 
 struct LinkedListSection: View {
-    var body: some View {
+    var body: some View {   
         Section(header: Text("Linked List")) {
             Text("Reverse")
         }
@@ -77,6 +77,7 @@ struct TreeSection: View {
             Text("Leaf Serial Number")
             Text("kthSmallest element in BST")
             Text("Mirror Tree")
+            Text("Is Identical Trees")
         }
     }
 }
