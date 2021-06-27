@@ -33,6 +33,8 @@
 		AABC3C0725F3F43F004EB0B9 /* RottenOranges.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC3C0625F3F43F004EB0B9 /* RottenOranges.swift */; };
 		AABC3C0C25F3FBAD004EB0B9 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC3C0B25F3FBAD004EB0B9 /* Queue.swift */; };
 		AABC3C1425F40150004EB0B9 /* RottenOrangesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC3C1325F40150004EB0B9 /* RottenOrangesModel.swift */; };
+		AAD8A12F26885C1D00A311AD /* TREIsIdentical.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8A12E26885C1D00A311AD /* TREIsIdentical.swift */; };
+		AAD8A13126885CAA00A311AD /* IsIdentical.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8A13026885CAA00A311AD /* IsIdentical.swift */; };
 		AAEC2D5D26022ACB00B84FCE /* StringPermutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC2D5C26022ACB00B84FCE /* StringPermutations.swift */; };
 		AAEC59E22615EA3300C3BBB5 /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC59E12615EA3300C3BBB5 /* LongestCommonPrefix.swift */; };
 		AAF1A8A3263B1ACF00163821 /* KthElementBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF1A8A2263B1ACF00163821 /* KthElementBST.swift */; };
@@ -91,6 +93,8 @@
 		AABC3C0625F3F43F004EB0B9 /* RottenOranges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RottenOranges.swift; sourceTree = "<group>"; };
 		AABC3C0B25F3FBAD004EB0B9 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		AABC3C1325F40150004EB0B9 /* RottenOrangesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RottenOrangesModel.swift; sourceTree = "<group>"; };
+		AAD8A12E26885C1D00A311AD /* TREIsIdentical.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TREIsIdentical.swift; sourceTree = "<group>"; };
+		AAD8A13026885CAA00A311AD /* IsIdentical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsIdentical.swift; sourceTree = "<group>"; };
 		AAEC2D5C26022ACB00B84FCE /* StringPermutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringPermutations\U0010.swift"; sourceTree = "<group>"; };
 		AAEC59E12615EA3300C3BBB5 /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
 		AAF1A8A2263B1ACF00163821 /* KthElementBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthElementBST.swift; sourceTree = "<group>"; };
@@ -240,6 +244,7 @@
 				AA99C1AE2618DCD700066E13 /* LeafNumber.swift */,
 				AAF1A8A2263B1ACF00163821 /* KthElementBST.swift */,
 				AA1A138F26821112000F98B0 /* MirrorTree.swift */,
+				AAD8A13026885CAA00A311AD /* IsIdentical.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -300,6 +305,7 @@
 			children = (
 				AAF1A8C1263B232700163821 /* TREKElementBST.swift */,
 				AA1A139126821AAB000F98B0 /* TREMirror.swift */,
+				AAD8A12E26885C1D00A311AD /* TREIsIdentical.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -438,6 +444,7 @@
 				AA99C1AF2618DCD700066E13 /* LeafNumber.swift in Sources */,
 				AA457B0825A2284F00881383 /* ContentView.swift in Sources */,
 				AA1A139026821112000F98B0 /* MirrorTree.swift in Sources */,
+				AAD8A13126885CAA00A311AD /* IsIdentical.swift in Sources */,
 				AAB8709325B09F0100A4666E /* LinkedList.swift in Sources */,
 				AA8D9C9125EE4E4E0006B975 /* Kadane.swift in Sources */,
 				AAF1A8A3263B1ACF00163821 /* KthElementBST.swift in Sources */,
@@ -462,6 +469,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA1A139226821AAB000F98B0 /* TREMirror.swift in Sources */,
+				AAD8A12F26885C1D00A311AD /* TREIsIdentical.swift in Sources */,
 				AABC3BFB25F3F360004EB0B9 /* ARRRottenOrangesTester.swift in Sources */,
 				AA83825B25ADFC3C00C160D8 /* LLReverseTester.swift in Sources */,
 				AAF4BBAA25EFF66D00B95F07 /* ARRCircularTourTester.swift in Sources */,
