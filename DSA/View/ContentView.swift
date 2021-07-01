@@ -21,7 +21,6 @@ struct ContentView: View {
             .listStyle(GroupedListStyle())
             .navigationBarTitle("DSA")
         }.onAppear() {
-            
         }
     }
 }
@@ -38,6 +37,7 @@ struct StringSection: View {
             Text("Sentence Reverse")
             Text("String Permutations (DP)")
             Text("Longest Common Prefix (Google)")
+            Text("Palindromes In String (Google)")
         }
     }
 }
