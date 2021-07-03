@@ -1,5 +1,5 @@
 //
-//  STRLongestCommonPrefix.swift
+//  STRSubPalindromes.swift
 //  DSATests
 //
 //  Created by Ethan on 01/04/2021.

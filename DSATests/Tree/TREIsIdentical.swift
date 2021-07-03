@@ -1,5 +1,5 @@
 //
-//  TREMirror.swift
+//  TREIsIdentical.swift
 //  DSATests
 //
 //  Created by Ethan on 22/06/2021.

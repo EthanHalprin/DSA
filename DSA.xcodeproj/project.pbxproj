@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA01699726905BFE00EE9E0B /* STRIsValidNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01699626905BFE00EE9E0B /* STRIsValidNumber.swift */; };
+		AA01699926905C1E00EE9E0B /* IsValidNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01699826905C1E00EE9E0B /* IsValidNumber.swift */; };
 		AA1A139026821112000F98B0 /* MirrorTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1A138F26821112000F98B0 /* MirrorTree.swift */; };
 		AA1A139226821AAB000F98B0 /* TREMirror.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1A139126821AAB000F98B0 /* TREMirror.swift */; };
 		AA457AB825A2088C00881383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA457AB725A2088C00881383 /* Assets.xcassets */; };
@@ -63,6 +65,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA01699626905BFE00EE9E0B /* STRIsValidNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STRIsValidNumber.swift; sourceTree = "<group>"; };
+		AA01699826905C1E00EE9E0B /* IsValidNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsValidNumber.swift; sourceTree = "<group>"; };
 		AA1A138F26821112000F98B0 /* MirrorTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MirrorTree.swift; sourceTree = "<group>"; };
 		AA1A139126821AAB000F98B0 /* TREMirror.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TREMirror.swift; sourceTree = "<group>"; };
 		AA457AB025A2088B00881383 /* DSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -283,6 +287,7 @@
 				AAEC2D5C26022ACB00B84FCE /* StringPermutations.swift */,
 				AAEC59E12615EA3300C3BBB5 /* LongestCommonPrefix.swift */,
 				AAB43D8A268DE7CE00349694 /* SubPalindromes.swift */,
+				AA01699826905C1E00EE9E0B /* IsValidNumber.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -302,6 +307,7 @@
 			children = (
 				AAF1A8AD263B221D00163821 /* STRLongestCommonPrefix.swift */,
 				AAB43D88268DE76900349694 /* STRSubPalindromes.swift */,
+				AA01699626905BFE00EE9E0B /* STRIsValidNumber.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -464,6 +470,7 @@
 				AA8D9C8C25EE4E2C0006B975 /* CircularTour.swift in Sources */,
 				AAB8709625B09F0100A4666E /* Arr.swift in Sources */,
 				AABC3C0725F3F43F004EB0B9 /* RottenOranges.swift in Sources */,
+				AA01699926905C1E00EE9E0B /* IsValidNumber.swift in Sources */,
 				AAB43D8B268DE7CE00349694 /* SubPalindromes.swift in Sources */,
 				AABC3C1425F40150004EB0B9 /* RottenOrangesModel.swift in Sources */,
 				AA99C1B72618DE2100066E13 /* TreeUtils.swift in Sources */,
@@ -476,6 +483,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA1A139226821AAB000F98B0 /* TREMirror.swift in Sources */,
+				AA01699726905BFE00EE9E0B /* STRIsValidNumber.swift in Sources */,
 				AAD8A12F26885C1D00A311AD /* TREIsIdentical.swift in Sources */,
 				AABC3BFB25F3F360004EB0B9 /* ARRRottenOrangesTester.swift in Sources */,
 				AAB43D89268DE76900349694 /* STRSubPalindromes.swift in Sources */,
