@@ -23,6 +23,8 @@
 		AA8D9C9125EE4E4E0006B975 /* Kadane.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8D9C9025EE4E4E0006B975 /* Kadane.swift */; };
 		AA99C1AF2618DCD700066E13 /* LeafNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA99C1AE2618DCD700066E13 /* LeafNumber.swift */; };
 		AA99C1B72618DE2100066E13 /* TreeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA99C1B62618DE2100066E13 /* TreeUtils.swift */; };
+		AAB43D89268DE76900349694 /* STRSubPalindromes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB43D88268DE76900349694 /* STRSubPalindromes.swift */; };
+		AAB43D8B268DE7CE00349694 /* SubPalindromes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB43D8A268DE7CE00349694 /* SubPalindromes.swift */; };
 		AAB8709325B09F0100A4666E /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB8708C25B09F0100A4666E /* LinkedList.swift */; };
 		AAB8709425B09F0100A4666E /* ReverseLL.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB8708D25B09F0100A4666E /* ReverseLL.swift */; };
 		AAB8709625B09F0100A4666E /* Arr.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB8709125B09F0100A4666E /* Arr.swift */; };
@@ -83,6 +85,8 @@
 		AA8D9C9025EE4E4E0006B975 /* Kadane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kadane.swift; sourceTree = "<group>"; };
 		AA99C1AE2618DCD700066E13 /* LeafNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeafNumber.swift; sourceTree = "<group>"; };
 		AA99C1B62618DE2100066E13 /* TreeUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeUtils.swift; sourceTree = "<group>"; };
+		AAB43D88268DE76900349694 /* STRSubPalindromes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STRSubPalindromes.swift; sourceTree = "<group>"; };
+		AAB43D8A268DE7CE00349694 /* SubPalindromes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubPalindromes.swift; sourceTree = "<group>"; };
 		AAB8708C25B09F0100A4666E /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		AAB8708D25B09F0100A4666E /* ReverseLL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseLL.swift; sourceTree = "<group>"; };
 		AAB8709125B09F0100A4666E /* Arr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arr.swift; sourceTree = "<group>"; };
@@ -278,6 +282,7 @@
 				AA521EDF25F8BE140089A8D0 /* SentenceReverse.swift */,
 				AAEC2D5C26022ACB00B84FCE /* StringPermutations.swift */,
 				AAEC59E12615EA3300C3BBB5 /* LongestCommonPrefix.swift */,
+				AAB43D8A268DE7CE00349694 /* SubPalindromes.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -296,6 +301,7 @@
 			isa = PBXGroup;
 			children = (
 				AAF1A8AD263B221D00163821 /* STRLongestCommonPrefix.swift */,
+				AAB43D88268DE76900349694 /* STRSubPalindromes.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -458,6 +464,7 @@
 				AA8D9C8C25EE4E2C0006B975 /* CircularTour.swift in Sources */,
 				AAB8709625B09F0100A4666E /* Arr.swift in Sources */,
 				AABC3C0725F3F43F004EB0B9 /* RottenOranges.swift in Sources */,
+				AAB43D8B268DE7CE00349694 /* SubPalindromes.swift in Sources */,
 				AABC3C1425F40150004EB0B9 /* RottenOrangesModel.swift in Sources */,
 				AA99C1B72618DE2100066E13 /* TreeUtils.swift in Sources */,
 				AA457AFC25A2283200881383 /* DSAApp.swift in Sources */,
@@ -471,6 +478,7 @@
 				AA1A139226821AAB000F98B0 /* TREMirror.swift in Sources */,
 				AAD8A12F26885C1D00A311AD /* TREIsIdentical.swift in Sources */,
 				AABC3BFB25F3F360004EB0B9 /* ARRRottenOrangesTester.swift in Sources */,
+				AAB43D89268DE76900349694 /* STRSubPalindromes.swift in Sources */,
 				AA83825B25ADFC3C00C160D8 /* LLReverseTester.swift in Sources */,
 				AAF4BBAA25EFF66D00B95F07 /* ARRCircularTourTester.swift in Sources */,
 				AAF1A8AE263B221D00163821 /* STRLongestCommonPrefix.swift in Sources */,
