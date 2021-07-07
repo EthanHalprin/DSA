@@ -8,7 +8,7 @@
 import Foundation
 
 /*
-    Let a string be a sentnece, reverse all words e.g.
+    Let a string be a sentence, reverse all words e.g.
  
       input:  "I learn swift now"
       output: "now swift learn I"
