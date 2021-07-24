@@ -59,6 +59,7 @@ struct ArraySection: View {
             Text("Stock Span")
             Text("Count And Say")
             Text("Next Permutation")
+            Text("Median Of 2 Sorted Arrays")
         }
     }
 }

@@ -11,5 +11,3 @@ class Arr {
     static var shared = Arr()
     private init() {}
 }
-
-
