@@ -68,6 +68,8 @@ struct LinkedListSection: View {
     var body: some View {   
         Section(header: Text("Linked List")) {
             Text("Reverse")
+            Text("Merge K Sorted Lists")
+            Text("Swap Pairs")
         }
     }
 }
