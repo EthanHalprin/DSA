@@ -43,7 +43,7 @@ extension Str {
             permutations.append(String(prefix) + String(iChar) + suffix)
         }
         
-        // 2- Dymanic Programmin: Tabulation
+        // 2- Dymanic Programming: Tabulation
         var count = input.count
         
         while count > 0 {
@@ -55,5 +55,71 @@ extension Str {
             count -= 1
         }
         return permutations
+    }
+    
+    func permuteIntArr(_ arr: [Int], starter: Int, results: inout [[Int]]) {
+        
+        /*
+             [1, 2, 3, 4]
+             
+         1
+            234
+            324
+            423
+            432
+         
+             1- keep first a[i]
+             2- recurse: a[i+1...]
+             3- take results & add your a[i] for each location
+             4- add to general results
+         */
+        
+        guard starter < arr.count - 1 else {
+            var item = [Int]()
+            item.append(arr.last!)
+            results.append(item)
+            return
+        }
+        
+        let keepFirst = arr[starter]
+        
+        permuteIntArr(arr, starter: starter + 1, results: &results)
+        
+        var keeperResults = [[Int]]()
+        for i in 0..<results.count {
+            for j in 0..<results[i].count {
+                let perms = appendAllOver(results[j], inject: keepFirst)
+                for perm in perms {
+                    keeperResults.append(perm)
+                }
+            }
+        }
+        
+        for res in keeperResults {
+            results.append(res)
+        }
+    }
+    
+    func appendAllOver(_ arr:[Int], inject: Int) -> [[Int]] {
+        
+        var results = [[Int]]()
+        
+        for position in 0..<arr.count {
+            var permutation = [Int]()
+            let left = position
+            let right = arr.count - position
+            for j in 0..<left {
+                permutation.append(arr[j])
+            }
+            permutation.append(inject)
+            var k = left + 1
+            while k<right {
+                permutation.append(arr[k])
+                k += 1
+            }
+            results.append(permutation)
+        }
+        
+        return results
     }
 }
