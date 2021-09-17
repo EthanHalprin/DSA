@@ -60,6 +60,7 @@ struct ArraySection: View {
             Text("Count And Say")
             Text("Next Permutation")
             Text("Median Of 2 Sorted Arrays")
+            Text("Matrix Rotation")
         }
     }
 }

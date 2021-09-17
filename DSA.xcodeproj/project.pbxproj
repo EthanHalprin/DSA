@@ -23,6 +23,7 @@
 		AA4EB104261465CC00F0378A /* CountAndSay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4EB103261465CC00F0378A /* CountAndSay.swift */; };
 		AA521EE025F8BE140089A8D0 /* SentenceReverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA521EDF25F8BE140089A8D0 /* SentenceReverse.swift */; };
 		AA623F932653BD1B002F7C78 /* NextPermutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA623F922653BD1B002F7C78 /* NextPermutation.swift */; };
+		AA71047426F3982A0056753F /* MatrixRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA71047326F398290056753F /* MatrixRotate.swift */; };
 		AA83825B25ADFC3C00C160D8 /* LLReverseTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA83825A25ADFC3C00C160D8 /* LLReverseTester.swift */; };
 		AA8D9C8C25EE4E2C0006B975 /* CircularTour.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8D9C8B25EE4E2C0006B975 /* CircularTour.swift */; };
 		AA8D9C9125EE4E4E0006B975 /* Kadane.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8D9C9025EE4E4E0006B975 /* Kadane.swift */; };
@@ -90,6 +91,7 @@
 		AA4EB103261465CC00F0378A /* CountAndSay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountAndSay.swift; sourceTree = "<group>"; };
 		AA521EDF25F8BE140089A8D0 /* SentenceReverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentenceReverse.swift; sourceTree = "<group>"; };
 		AA623F922653BD1B002F7C78 /* NextPermutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextPermutation.swift; sourceTree = "<group>"; };
+		AA71047326F398290056753F /* MatrixRotate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixRotate.swift; sourceTree = "<group>"; };
 		AA83825A25ADFC3C00C160D8 /* LLReverseTester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLReverseTester.swift; sourceTree = "<group>"; };
 		AA8D9C8B25EE4E2C0006B975 /* CircularTour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularTour.swift; sourceTree = "<group>"; };
 		AA8D9C9025EE4E4E0006B975 /* Kadane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kadane.swift; sourceTree = "<group>"; };
@@ -284,6 +286,7 @@
 				AA4EB103261465CC00F0378A /* CountAndSay.swift */,
 				AA623F922653BD1B002F7C78 /* NextPermutation.swift */,
 				AA3DD2CA26AC469D00FE0F05 /* MedianSortedArrays.swift */,
+				AA71047326F398290056753F /* MatrixRotate.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -465,6 +468,7 @@
 				AA99C1AF2618DCD700066E13 /* LeafNumber.swift in Sources */,
 				AA4A6E5126C2B0A30029ED16 /* SwapPairs.swift in Sources */,
 				AA457B0825A2284F00881383 /* ContentView.swift in Sources */,
+				AA71047426F3982A0056753F /* MatrixRotate.swift in Sources */,
 				AA1A139026821112000F98B0 /* MirrorTree.swift in Sources */,
 				AAD8A13126885CAA00A311AD /* IsIdentical.swift in Sources */,
 				AAB8709325B09F0100A4666E /* LinkedList.swift in Sources */,
