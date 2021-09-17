@@ -39,6 +39,7 @@ struct StringSection: View {
             Text("Longest Common Prefix (Google)")
             Text("Palindromes In String (Google)")
             Text("Is Valid Number In String")
+            Text("Group Anagrams")
         }
     }
 }

@@ -12,6 +12,7 @@
 		AA1A139026821112000F98B0 /* MirrorTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1A138F26821112000F98B0 /* MirrorTree.swift */; };
 		AA1A139226821AAB000F98B0 /* TREMirror.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1A139126821AAB000F98B0 /* TREMirror.swift */; };
 		AA3DD2CB26AC469D00FE0F05 /* MedianSortedArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3DD2CA26AC469D00FE0F05 /* MedianSortedArrays.swift */; };
+		AA44108126F4D5B50071642D /* Group Anagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA44108026F4D5B50071642D /* Group Anagrams.swift */; };
 		AA457AB825A2088C00881383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA457AB725A2088C00881383 /* Assets.xcassets */; };
 		AA457ABB25A2088C00881383 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA457ABA25A2088C00881383 /* Preview Assets.xcassets */; };
 		AA457AC625A2088C00881383 /* ARRKadaneTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA457AC525A2088C00881383 /* ARRKadaneTester.swift */; };
@@ -74,6 +75,7 @@
 		AA1A138F26821112000F98B0 /* MirrorTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MirrorTree.swift; sourceTree = "<group>"; };
 		AA1A139126821AAB000F98B0 /* TREMirror.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TREMirror.swift; sourceTree = "<group>"; };
 		AA3DD2CA26AC469D00FE0F05 /* MedianSortedArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedianSortedArrays.swift; sourceTree = "<group>"; };
+		AA44108026F4D5B50071642D /* Group Anagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Group Anagrams.swift"; sourceTree = "<group>"; };
 		AA457AB025A2088B00881383 /* DSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA457AB725A2088C00881383 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA457ABA25A2088C00881383 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -300,6 +302,7 @@
 				AAEC59E12615EA3300C3BBB5 /* LongestCommonPrefix.swift */,
 				AAB43D8A268DE7CE00349694 /* SubPalindromes.swift */,
 				AA01699826905C1E00EE9E0B /* IsValidNumber.swift */,
+				AA44108026F4D5B50071642D /* Group Anagrams.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -473,6 +476,7 @@
 				AAD8A13126885CAA00A311AD /* IsIdentical.swift in Sources */,
 				AAB8709325B09F0100A4666E /* LinkedList.swift in Sources */,
 				AA8D9C9125EE4E4E0006B975 /* Kadane.swift in Sources */,
+				AA44108126F4D5B50071642D /* Group Anagrams.swift in Sources */,
 				AAF1A8A3263B1ACF00163821 /* KthElementBST.swift in Sources */,
 				AA4A6E4F26C2AA050029ED16 /* MergeSortedLists.swift in Sources */,
 				AAB8709425B09F0100A4666E /* ReverseLL.swift in Sources */,
