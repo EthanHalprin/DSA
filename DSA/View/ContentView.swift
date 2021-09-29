@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-
 struct ContentView: View {
     var body: some View {
         NavigationView {
@@ -62,6 +61,7 @@ struct ArraySection: View {
             Text("Next Permutation")
             Text("Median Of 2 Sorted Arrays")
             Text("Matrix Rotation")
+            Text("Max Sub Array")
         }
     }
 }
@@ -87,3 +87,4 @@ struct TreeSection: View {
         }
     }
 }
+             

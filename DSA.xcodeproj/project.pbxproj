@@ -11,6 +11,8 @@
 		AA01699926905C1E00EE9E0B /* IsValidNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01699826905C1E00EE9E0B /* IsValidNumber.swift */; };
 		AA1A139026821112000F98B0 /* MirrorTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1A138F26821112000F98B0 /* MirrorTree.swift */; };
 		AA1A139226821AAB000F98B0 /* TREMirror.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1A139126821AAB000F98B0 /* TREMirror.swift */; };
+		AA27025A2704517A000EEB49 /* MaximumSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2702592704517A000EEB49 /* MaximumSubArray.swift */; };
+		AA27025C27045C29000EEB49 /* ARRMaxSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA27025B27045C29000EEB49 /* ARRMaxSubArray.swift */; };
 		AA3DD2CB26AC469D00FE0F05 /* MedianSortedArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3DD2CA26AC469D00FE0F05 /* MedianSortedArrays.swift */; };
 		AA44108126F4D5B50071642D /* Group Anagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA44108026F4D5B50071642D /* Group Anagrams.swift */; };
 		AA457AB825A2088C00881383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA457AB725A2088C00881383 /* Assets.xcassets */; };
@@ -74,6 +76,8 @@
 		AA01699826905C1E00EE9E0B /* IsValidNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsValidNumber.swift; sourceTree = "<group>"; };
 		AA1A138F26821112000F98B0 /* MirrorTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MirrorTree.swift; sourceTree = "<group>"; };
 		AA1A139126821AAB000F98B0 /* TREMirror.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TREMirror.swift; sourceTree = "<group>"; };
+		AA2702592704517A000EEB49 /* MaximumSubArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumSubArray.swift; sourceTree = "<group>"; };
+		AA27025B27045C29000EEB49 /* ARRMaxSubArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARRMaxSubArray.swift; sourceTree = "<group>"; };
 		AA3DD2CA26AC469D00FE0F05 /* MedianSortedArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedianSortedArrays.swift; sourceTree = "<group>"; };
 		AA44108026F4D5B50071642D /* Group Anagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Group Anagrams.swift"; sourceTree = "<group>"; };
 		AA457AB025A2088B00881383 /* DSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -153,6 +157,7 @@
 				AAB870B425B0CD4500A4666E /* ARRStockSpanTester.swift */,
 				AAF4BBA925EFF66D00B95F07 /* ARRCircularTourTester.swift */,
 				AABC3BFA25F3F360004EB0B9 /* ARRRottenOrangesTester.swift */,
+				AA27025B27045C29000EEB49 /* ARRMaxSubArray.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -289,6 +294,7 @@
 				AA623F922653BD1B002F7C78 /* NextPermutation.swift */,
 				AA3DD2CA26AC469D00FE0F05 /* MedianSortedArrays.swift */,
 				AA71047326F398290056753F /* MatrixRotate.swift */,
+				AA2702592704517A000EEB49 /* MaximumSubArray.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -475,6 +481,7 @@
 				AA1A139026821112000F98B0 /* MirrorTree.swift in Sources */,
 				AAD8A13126885CAA00A311AD /* IsIdentical.swift in Sources */,
 				AAB8709325B09F0100A4666E /* LinkedList.swift in Sources */,
+				AA27025A2704517A000EEB49 /* MaximumSubArray.swift in Sources */,
 				AA8D9C9125EE4E4E0006B975 /* Kadane.swift in Sources */,
 				AA44108126F4D5B50071642D /* Group Anagrams.swift in Sources */,
 				AAF1A8A3263B1ACF00163821 /* KthElementBST.swift in Sources */,
@@ -513,6 +520,7 @@
 				AAF1A8C2263B232700163821 /* TREKElementBST.swift in Sources */,
 				AAB870B525B0CD4500A4666E /* ARRStockSpanTester.swift in Sources */,
 				AA457AC625A2088C00881383 /* ARRKadaneTester.swift in Sources */,
+				AA27025C27045C29000EEB49 /* ARRMaxSubArray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
