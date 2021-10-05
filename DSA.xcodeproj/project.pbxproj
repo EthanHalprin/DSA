@@ -26,6 +26,7 @@
 		AA4EB104261465CC00F0378A /* CountAndSay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4EB103261465CC00F0378A /* CountAndSay.swift */; };
 		AA521EE025F8BE140089A8D0 /* SentenceReverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA521EDF25F8BE140089A8D0 /* SentenceReverse.swift */; };
 		AA623F932653BD1B002F7C78 /* NextPermutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA623F922653BD1B002F7C78 /* NextPermutation.swift */; };
+		AA63D98B270CA33F00BAD2B7 /* JumpGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA63D98A270CA33F00BAD2B7 /* JumpGame.swift */; };
 		AA71047426F3982A0056753F /* MatrixRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA71047326F398290056753F /* MatrixRotate.swift */; };
 		AA83825B25ADFC3C00C160D8 /* LLReverseTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA83825A25ADFC3C00C160D8 /* LLReverseTester.swift */; };
 		AA8D9C8C25EE4E2C0006B975 /* CircularTour.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8D9C8B25EE4E2C0006B975 /* CircularTour.swift */; };
@@ -97,6 +98,7 @@
 		AA4EB103261465CC00F0378A /* CountAndSay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountAndSay.swift; sourceTree = "<group>"; };
 		AA521EDF25F8BE140089A8D0 /* SentenceReverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentenceReverse.swift; sourceTree = "<group>"; };
 		AA623F922653BD1B002F7C78 /* NextPermutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextPermutation.swift; sourceTree = "<group>"; };
+		AA63D98A270CA33F00BAD2B7 /* JumpGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpGame.swift; sourceTree = "<group>"; };
 		AA71047326F398290056753F /* MatrixRotate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixRotate.swift; sourceTree = "<group>"; };
 		AA83825A25ADFC3C00C160D8 /* LLReverseTester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLReverseTester.swift; sourceTree = "<group>"; };
 		AA8D9C8B25EE4E2C0006B975 /* CircularTour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularTour.swift; sourceTree = "<group>"; };
@@ -295,6 +297,7 @@
 				AA3DD2CA26AC469D00FE0F05 /* MedianSortedArrays.swift */,
 				AA71047326F398290056753F /* MatrixRotate.swift */,
 				AA2702592704517A000EEB49 /* MaximumSubArray.swift */,
+				AA63D98A270CA33F00BAD2B7 /* JumpGame.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -489,6 +492,7 @@
 				AAB8709425B09F0100A4666E /* ReverseLL.swift in Sources */,
 				AAEC2D5D26022ACB00B84FCE /* StringPermutations.swift in Sources */,
 				AA623F932653BD1B002F7C78 /* NextPermutation.swift in Sources */,
+				AA63D98B270CA33F00BAD2B7 /* JumpGame.swift in Sources */,
 				AA4EB104261465CC00F0378A /* CountAndSay.swift in Sources */,
 				AAEC59E22615EA3300C3BBB5 /* LongestCommonPrefix.swift in Sources */,
 				AABC3C0C25F3FBAD004EB0B9 /* Queue.swift in Sources */,
