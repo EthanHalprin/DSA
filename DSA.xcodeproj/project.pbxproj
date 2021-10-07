@@ -47,6 +47,7 @@
 		AABC3C1425F40150004EB0B9 /* RottenOrangesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC3C1325F40150004EB0B9 /* RottenOrangesModel.swift */; };
 		AAD8A12F26885C1D00A311AD /* TREIsIdentical.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8A12E26885C1D00A311AD /* TREIsIdentical.swift */; };
 		AAD8A13126885CAA00A311AD /* IsIdentical.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8A13026885CAA00A311AD /* IsIdentical.swift */; };
+		AAE95B18270EDA70007459EB /* MergeIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE95B17270EDA70007459EB /* MergeIntervals.swift */; };
 		AAEC2D5D26022ACB00B84FCE /* StringPermutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC2D5C26022ACB00B84FCE /* StringPermutations.swift */; };
 		AAEC59E22615EA3300C3BBB5 /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC59E12615EA3300C3BBB5 /* LongestCommonPrefix.swift */; };
 		AAF1A8A3263B1ACF00163821 /* KthElementBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF1A8A2263B1ACF00163821 /* KthElementBST.swift */; };
@@ -119,6 +120,7 @@
 		AABC3C1325F40150004EB0B9 /* RottenOrangesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RottenOrangesModel.swift; sourceTree = "<group>"; };
 		AAD8A12E26885C1D00A311AD /* TREIsIdentical.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TREIsIdentical.swift; sourceTree = "<group>"; };
 		AAD8A13026885CAA00A311AD /* IsIdentical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsIdentical.swift; sourceTree = "<group>"; };
+		AAE95B17270EDA70007459EB /* MergeIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeIntervals.swift; sourceTree = "<group>"; };
 		AAEC2D5C26022ACB00B84FCE /* StringPermutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringPermutations\U0010.swift"; sourceTree = "<group>"; };
 		AAEC59E12615EA3300C3BBB5 /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
 		AAF1A8A2263B1ACF00163821 /* KthElementBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthElementBST.swift; sourceTree = "<group>"; };
@@ -298,6 +300,7 @@
 				AA71047326F398290056753F /* MatrixRotate.swift */,
 				AA2702592704517A000EEB49 /* MaximumSubArray.swift */,
 				AA63D98A270CA33F00BAD2B7 /* JumpGame.swift */,
+				AAE95B17270EDA70007459EB /* MergeIntervals.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -498,6 +501,7 @@
 				AABC3C0C25F3FBAD004EB0B9 /* Queue.swift in Sources */,
 				AAB930B125F624AE001682E2 /* Str.swift in Sources */,
 				AA8D9C8C25EE4E2C0006B975 /* CircularTour.swift in Sources */,
+				AAE95B18270EDA70007459EB /* MergeIntervals.swift in Sources */,
 				AAB8709625B09F0100A4666E /* Arr.swift in Sources */,
 				AABC3C0725F3F43F004EB0B9 /* RottenOranges.swift in Sources */,
 				AA01699926905C1E00EE9E0B /* IsValidNumber.swift in Sources */,

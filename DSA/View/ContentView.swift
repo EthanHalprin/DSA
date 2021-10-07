@@ -62,6 +62,8 @@ struct ArraySection: View {
             Text("Median Of 2 Sorted Arrays")
             Text("Matrix Rotation")
             Text("Max Sub Array")
+            Text("Jump Game")
+            Text("Merge Intervals")
         }
     }
 }
