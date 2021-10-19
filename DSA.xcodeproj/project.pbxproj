@@ -54,7 +54,6 @@
 		AAF1A8A3263B1ACF00163821 /* KthElementBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF1A8A2263B1ACF00163821 /* KthElementBST.swift */; };
 		AAF1A8AE263B221D00163821 /* STRLongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF1A8AD263B221D00163821 /* STRLongestCommonPrefix.swift */; };
 		AAF1A8C2263B232700163821 /* TREKElementBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF1A8C1263B232700163821 /* TREKElementBST.swift */; };
-		AAF27239271F06FE0069CAB3 /* ValidNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF27238271F06FE0069CAB3 /* ValidNumber.swift */; };
 		AAF4BBAA25EFF66D00B95F07 /* ARRCircularTourTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF4BBA925EFF66D00B95F07 /* ARRCircularTourTester.swift */; };
 /* End PBXBuildFile section */
 
@@ -129,7 +128,6 @@
 		AAF1A8A2263B1ACF00163821 /* KthElementBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthElementBST.swift; sourceTree = "<group>"; };
 		AAF1A8AD263B221D00163821 /* STRLongestCommonPrefix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STRLongestCommonPrefix.swift; sourceTree = "<group>"; };
 		AAF1A8C1263B232700163821 /* TREKElementBST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TREKElementBST.swift; sourceTree = "<group>"; };
-		AAF27238271F06FE0069CAB3 /* ValidNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidNumber.swift; sourceTree = "<group>"; };
 		AAF4BBA925EFF66D00B95F07 /* ARRCircularTourTester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARRCircularTourTester.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -320,7 +318,6 @@
 				AAB43D8A268DE7CE00349694 /* SubPalindromes.swift */,
 				AA01699826905C1E00EE9E0B /* IsValidNumber.swift */,
 				AA44108026F4D5B50071642D /* Group Anagrams.swift */,
-				AAF27238271F06FE0069CAB3 /* ValidNumber.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -495,7 +492,6 @@
 				AAB8709325B09F0100A4666E /* LinkedList.swift in Sources */,
 				AA27025A2704517A000EEB49 /* MaximumSubArray.swift in Sources */,
 				AA8D9C9125EE4E4E0006B975 /* Kadane.swift in Sources */,
-				AAF27239271F06FE0069CAB3 /* ValidNumber.swift in Sources */,
 				AA44108126F4D5B50071642D /* Group Anagrams.swift in Sources */,
 				AAF1A8A3263B1ACF00163821 /* KthElementBST.swift in Sources */,
 				AA90E24A271ED970009DB5D6 /* MinPathSum.swift in Sources */,
