@@ -54,16 +54,21 @@ struct QueueSection: View {
 struct ArraySection: View {
     var body: some View {
         Section(header: Text("ARRAY")) {
-            Text("Circular Tour")
-            Text("Kadane")
-            Text("Stock Span")
-            Text("Count And Say")
-            Text("Next Permutation")
-            Text("Median Of 2 Sorted Arrays")
-            Text("Matrix Rotation")
-            Text("Max Sub Array")
-            Text("Jump Game")
-            Text("Merge Intervals")
+            Group {
+                Text("Circular Tour")
+                Text("Kadane")
+                Text("Stock Span")
+                Text("Count And Say")
+                Text("Next Permutation")
+                Text("Median Of 2 Sorted Arrays")
+                Text("Matrix Rotation")
+                Text("Max Sub Array")
+                Text("Jump Game")
+                Text("Merge Intervals")
+            }
+            Group {
+                Text("Minimal Path Sum")
+            }
         }
     }
 }

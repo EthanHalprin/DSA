@@ -7,9 +7,20 @@
 
 import Foundation
 
-class QueueServices {
-    static var shared = QueueServices()
-    private init() {}
+
+final class QueueServices {
+    
+    static var shared: QueueServices {
+        if let ref = QueueServices.theRef {
+            return ref
+        } else {
+            QueueServices.theRef = QueueServices()
+            return QueueServices.theRef!
+        }
+    }
+
+    static private var theRef: QueueServices?
+    private init() {  }
 }
 
 

@@ -7,7 +7,18 @@
 
 import Foundation
 
-class Str {
-    static var shared = Str()
-    private init() {}
+
+final class Str {
+    
+    static var shared: Str {
+        if let ref = Str.theRef {
+            return ref
+        } else {
+            Str.theRef = Str()
+            return Str.theRef!
+        }
+    }
+
+    static private var theRef: Str?
+    private init() {  }
 }

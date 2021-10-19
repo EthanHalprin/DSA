@@ -7,15 +7,28 @@
 
 import Foundation
 
-class TreeUtils {
+
+final class TreeUtils {
     
-    static var shared = TreeUtils()
-    
-    private init() {}
+    static var shared: TreeUtils {
+        if let ref = TreeUtils.theRef {
+            return ref
+        } else {
+            TreeUtils.theRef = TreeUtils()
+            return TreeUtils.theRef!
+        }
+    }
+
+    static private var theRef: TreeUtils?
+    private init() {  }
+}
+
+extension TreeUtils {
     static func isLeaf(_ node: TNode) -> Bool {
-        return node.left == nil && node.right == nil 
+        return node.left == nil && node.right == nil
     }
 }
+
 
 extension TNode: NSCopying {
     public func copy(with zone: NSZone? = nil) -> Any {

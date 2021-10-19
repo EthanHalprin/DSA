@@ -8,6 +8,16 @@
 import Foundation
 
 class Arr {
-    static var shared = Arr()
-    private init() {}
+    
+    static var shared: Arr {
+        if let ref = Arr.theRef {
+            return ref
+        } else {
+            Arr.theRef = Arr()
+            return Arr.theRef!
+        }
+    }
+    
+    static private var theRef: Arr?
+    private init() {  }
 }
